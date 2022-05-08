@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .striped div:nth-child(even) {
+    @apply bg-cyan;
+  }
+  .striped div:nth-child(odd) {
+    @apply bg-blue;
+  }
+}
+
+@layer base {
+  h1,
+  h2, h4 {
+    @apply font-Archivo;
+  }
+  body {
+    @apply font-Montserrat;
+  }
+}
