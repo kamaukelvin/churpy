@@ -67,6 +67,8 @@
       </div>
     </section>
     <!-- Product section end -->
+
+
   </div>
 </template>
 
@@ -77,6 +79,7 @@ import RealTimeCard from "../components/RealTimeCard.vue";
 import LinkUpCard from "../components/LinkUpCard.vue";
 import ReportCard from "../components/ReportCard.vue";
 
+
 export default {
   name: "LandingPage",
   components: {
@@ -85,6 +88,8 @@ export default {
     RealTimeCard,
     LinkUpCard,
     ReportCard,
+   
   },
+ 
 };
 </script>
